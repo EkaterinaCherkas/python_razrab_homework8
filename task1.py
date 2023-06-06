@@ -77,8 +77,6 @@ def delete_by_name(data:list, name: str):
     return data
 
 
-
-
 def work_with_phonebook():
     choice = show_menu()
     phone_book = read_csv('phonebook.csv')
